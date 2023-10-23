@@ -1,5 +1,5 @@
 # Boxing with Reinforcement Learning
-Trabalho desenvolvido para a disciplina de Reinforcement Learning 2023.2 da FGV EMAp.
+Trabalho desenvolvido para a disciplina de Reinforcement Learning 2023.2 da FGV EMAp pelos alunos Ana Carolina Erthal e Guilherme de Melo
 
 
 ## O jogo
@@ -96,7 +96,10 @@ Novamente, realizamos os testes utilizando ambas as abordagens:
 
 ## Referências
 
+[1] Mnih, Volodymyr, et al. "Playing atari with deep reinforcement learning." arXiv preprint arXiv:1312.5602 (2013).
 
+[2] MG Bellemare, Y Naddaf, J Veness, and M Bowling. “The arcade learning environment: An evaluation platform for general agents.” Journal of Artificial Intelligence Research (2012).
 
+[3] Deep_Reinforcement_Learning-Atari GitHub repo 
 
-
+[4] Fedus, William, et al. "Revisiting fundamentals of experience replay." International Conference on Machine Learning. PMLR, 2020.
