@@ -67,28 +67,11 @@ Para esse modelo, definimos _inputs_ simples, que representam uma única imagem,
 	<img src = "img/cnn1.png" width=40%> 
 </div>
 
-Realizamos o teste dessa rede utilizando tanto Experience Replay quanto a abordagem Epsilon Greedy, e apresentamos os resultados a seguir:
-
-#### Experience Replay
-
-#### Epsilon Greedy
-
+Realizamos o teste dessa rede utilizando tanto Experience Replay quanto a abordagem Epsilon Greedy.
 
 ### CNN com Stack de imagens
 
-Para esse modelo, utilizamos a mesma estrutura de CNN que a anterior, mas realizamos um stack de 5 imagens para cada _input_ da rede. A quantidade de parâmetros treináveis aumenta pouco em relação à rede anterior, mas o objetivo era ter inputs mais significativos, com uma noção de "movimento" do agente dentro de cada input, já que capturamos uma janela de 5 possibilidades de ação. 
-
-Novamente, realizamos os testes utilizando ambas as abordagens:
-
-
-#### Experience Replay
-
-#### Epsilon Greedy
-
-
-## Resultados
-
-
+Para esse modelo, utilizamos a mesma estrutura de CNN que a anterior, mas realizamos um stack de 5 imagens para cada _input_ da rede. A quantidade de parâmetros treináveis aumenta pouco em relação à rede anterior, mas o objetivo era ter inputs mais significativos, com uma noção de "movimento" do agente dentro de cada input, já que capturamos uma janela de 5 possibilidades de ação. Novamente, realizamos os testes utilizando ambas as abordagens.
 
 ## Como replicar os experimentos
 
