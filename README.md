@@ -75,6 +75,24 @@ Para esse modelo, utilizamos a mesma estrutura de CNN que a anterior, mas realiz
 
 ## Como replicar os experimentos
 
+### Gerando os dados para Experience Replay
+
+Para gerar os dados para Experience Replay, basta rodar o arquivo `DataGen.ipynb` ajustando o número de amostras na variável 'AMOSTRAS'. O arquivo irá gerar os dados com ações aleatórias, e salvará o arquivo `train_data.txt` no diretório `data/`.
+
+### Criação dos modelos
+
+Para criar os modelos, basta rodar o arquivo `CreateModel.ipynb`. O arquivo irá criar os modelos e salvá-los no diretório `models/`. Com os nomes de `model_cnn_single.h5` e `model_cnn_stack.h5`.
+
+### Treinamento dos modelos
+
+#### Experience Replay
+
+Para treinar os modelos com Experience Replay, basta rodar o arquivo `TrainExp.ipynb`. O arquivo irá carregar os dados do arquivo `train_data.txt` e treinar os modelos com os parâmetros definidos no arquivo. Os modelos serão salvos no diretório `models/` com 10, 100 e 500 epochs, com os nomes de `model_cnn_single_epoch10.h5`, `model_cnn_single_epoch100.h5`, `model_cnn_single_epoch500.h5`, `model_cnn_stack_epoch10.h5`, `model_cnn_stack_epoch100.h5` e `model_cnn_stack_epoch500.h5`.
+
+#### Epsilon Greedy
+
+
+
 
 
 ## Referências
@@ -83,6 +101,6 @@ Para esse modelo, utilizamos a mesma estrutura de CNN que a anterior, mas realiz
 
 [2] MG Bellemare, Y Naddaf, J Veness, and M Bowling. “The arcade learning environment: An evaluation platform for general agents.” Journal of Artificial Intelligence Research (2012).
 
-[3] Deep_Reinforcement_Learning-Atari GitHub repo 
+[3] Deep_Reinforcement_Learning-Atari GitHub repo
 
 [4] Fedus, William, et al. "Revisiting fundamentals of experience replay." International Conference on Machine Learning. PMLR, 2020.
