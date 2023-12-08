@@ -91,9 +91,7 @@ Para treinar os modelos com Experience Replay, basta rodar o arquivo `TrainExp.i
 
 #### Epsilon Greedy
 
-
-
-
+Para treinar os modelos com Epsilon-Greedy, basta rodar o arquivo `TrainEpsGreedy.ipynb`. O arquivo irá carregar os dados do arquivo `train_data.txt` e treinar o modelo com os parâmetros definidos no arquivo. O modelo será salvo no diretório `models/` com o nome de 'model_cnn_stack_epsilon_greedy.h5'.
 
 ## Referências
 
