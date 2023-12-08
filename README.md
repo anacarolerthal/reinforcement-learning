@@ -75,6 +75,10 @@ Para esse modelo, utilizamos a mesma estrutura de CNN que a anterior, mas realiz
 
 ## Como replicar os experimentos
 
+Os notebooks para replicação dos experimentos estão disponíveis em `src`. 
+Utilize o notebook `CreateModel.ipynb` para criar o modelo, `TrainEpsGreedy.ipynb` para treinar utilizando a abordagem Epsilon Greedy e `TrainExp.ipynb` para utilizar o Experience Replay. Para este último, utilize o notebook `DataGen.ipynb` para geração de dados de treinamento.
+
+
 ### Gerando os dados para Experience Replay
 
 Para gerar os dados para Experience Replay, basta rodar o arquivo `DataGen.ipynb` ajustando o número de amostras na variável 'AMOSTRAS'. O arquivo irá gerar os dados com ações aleatórias, e salvará o arquivo `train_data.txt` no diretório `data/`.
